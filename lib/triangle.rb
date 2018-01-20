@@ -30,13 +30,14 @@ class Triangle
   
   end
   
-  end
-  
-  
-class TriangleError < StandardError
+  class TriangleError < StandardError
  # triangle error code
  def message 
       "This is not a valid triangle sir!"
     end
  
 end
+  
+  end
+  
+  
