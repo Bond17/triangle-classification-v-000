@@ -30,7 +30,7 @@ class Triangle
   
   end
   
-  class TriangleError < StandardError
+class TriangleError < StandardError
  # triangle error code
  def message 
       "This is not a valid triangle sir!"
@@ -38,6 +38,6 @@ class Triangle
  
 end
   
-  end
+end
   
   
